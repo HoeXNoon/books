@@ -54,3 +54,21 @@ Python的解释器很多，但使用最广泛的还是CPython。如果要和Java
 ```
 PVM就是迭代运行字节码指令的一个大循环，一个接一个地完成操作，它是实际运行脚本的组件，也就是所谓Python解释器的最后一步
 ```
+#### 经常出现的困惑与解答
+```http
+1. 什么是Python解释器？
+  Python解释器是运行Python程序的程序。
+2. 什么是源代码？
+  源代码是为程序所写的语句：它包括了文本文件（通常以.py为后缀名）的文本。
+3. 什么是字节码？
+  字节码是Python将程序编译后所得到的底层形式。Python自动将字节码保存到后缀为.pyc的文件中。
+4.什么是PVM？
+  PVM是Python虚拟机，它是Python运行时引擎解释编译得到的代码。
+5.请列出两个Python标准执行模块的变体的名字。
+  Psyco（实时编译器，加快执行速度）、Shedskin（C++转换器）以及forzen biinaries（冻结二进制文件） 是执行模块的所有变体。
+6. CPython、Jython以及IronPython有什么不同？
+  CPython是Python语言的标准实现。Jython和IronPython分别是Python程序的Java和.net的实现；它们都是Python的编译器的替代实现
+
+```
+
+
